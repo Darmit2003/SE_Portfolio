@@ -54,3 +54,49 @@ appropriately.
 * Repeat the descriptive commentary from point 1
 * Give a blow-by-blow account of everything you did. Instead, you should highlight 
   the important points.
+
+  # Setup
+
+  This section contains documentation on the practical work I carried out in week 2.
+
+  How my environment configuration was setup will be covered as well as my reflection on the work of the week.
+
+  ## Environment Configuration
+
+  <ins>**Shared Team Repo Setup**<ins>
+  
+  The first task that was undertaken this week as a team was for us to create a shared repository on GitHub and get everyone added as a contributor to the repository.
+
+  ![Team Repository Screenshot](https://github.com/Darmit2003/SE_Portfolio/blob/main/images/teamRepo.png) 
+  ||:--:|| <b>Image 1 - Team Repository Screenshot</b> |
+
+  To achieve this outcome, one of our team members who was more experienced with GitHub created the repository, the rest of us then shared our account emails with this member and he added us to the repository as contributors.
+
+  After this we all had access to our new shared team repository as seen in image 1.
+
+  <ins>**Project and Task Board Setup**<ins>
+  
+  Next we were to setup a project on GitHub with an integrated task board, this again was handled by a few of the team members who were more experienced with GitHub, which at this time does not include myself as this is all completely new to me but I'd like to think I'm learning fairly quickly.
+
+  ![Project Board Screenshot](https://github.com/Darmit2003/SE_Portfolio/blob/main/images/projectBoard.png) 
+  ||:--:|| <b>Image 2 - Project Board Screenshot</b> |
+  
+  This task board can be seen set up in a project in image 2 above.
+
+  <ins>**Personal Visual Studio Setup**<ins>
+
+  Now onto a more individually based task, I had to configure a personal copy of Visual Studio appropriately to be used for the team's work over the next few weeks.
+
+  ![VS Configuration Screenshot](https://github.com/Darmit2003/SE_Portfolio/blob/main/images/vsConfiguration.png) 
+  ||:--:|| <b>Image 3 - VS Configuration Screenshot</b> |
+
+  I already had a copy of Visual Studio 2019 Community but I thought it would be best to stay up to date with the latest software, so I installed a copy of Visual Studio 2022 Community to use that instead.
+
+  When choosing the packages to install with Visual Studio I made sure to include the package which lets you build using .NET MAUI as this will be needed for future work, this can be seen in image 3.
+
+  After installing this my personal copy of Visual Studio was configured appropriately and ready to use.
+
+  <ins>**Cloning the Shared Repository**<ins>
+
+  The last task this week linked to my team was to clone the shared team repository in Visual Studio.
+
