@@ -127,4 +127,4 @@ After many hours spent, videos watched and forums read I am still no further ahe
 
 I made the decision to hand this work in a day late and lose a mark hoping that some in person commucation and team work would lead to some clarity and while some progress was made I still wasn't ready to complete my development task yet which is the situation the rest of the team members find themselves in as well.
 
-While progress is being made it feels like it is not fast enough to keep up with schedule and although I overcame some of my struggles not problems are still in the way of completion.
+While progress is being made it feels like it is not fast enough to keep up with schedule and although I overcame some of my struggles more problems are still in the way of completion.
