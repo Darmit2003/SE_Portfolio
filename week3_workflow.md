@@ -73,7 +73,7 @@ This section should cover completing my assigned task on a feature branch, howev
 
 Due to this all that I can show in this section is that eventually I was able to create a new branch to complete my development task on, which of course I cannot show completed at this time but I will continue to work on.
 
-In Fig.5 you can see the create branch pop-up, which I accessed by selecting 'Git Changes' next to the solution explorer and then pressing the 'New Branch' button.
+In Fig.5 you can see the create branch pop-up, which I accessed by selecting 'Git Changes' next to the solution explorer in Visual Studio and then pressing the 'New Branch' button.
 
 | ![New Branch Screenshot](images/createBranch.png) 
   |:--:| 
