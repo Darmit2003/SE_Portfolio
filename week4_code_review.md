@@ -4,7 +4,7 @@ This section documents my practical work from week 4.  This week I was given som
 
 Most of these concepts are either completely new ideas to me or some are even the opposite of what I was taught before which made these code reviews difficult to fully understand and this was my first time taking on this kind of task.
 
-Also I feel that a lot of these concepts can become quite opinion based in some cases which led to me getting some answers wrong that I believe are right following my understanding of the concetps.
+Also I feel that a lot of these concepts can become quite opinion based in some cases which led to me getting some answers wrong that I believe are right following my understanding of the concepts.
 
 In the case of the challenge I have decided to showcase here, I did not get any of the answers right, but it is still the piece of code I want to talk about to try to justify my answers and showcase my skills at reviewing code.  Below is the code in question.
 
