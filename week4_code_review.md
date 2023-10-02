@@ -71,7 +71,7 @@ class Program
 
 In my suggested fix I have changed the name of the Amount variable to Price and the Tax variable to WithTaxPrice as they are slightly more descriptive names for the variables.
 
-I taken the calculation out of the Invoice object and created a new method called CalculateTax(price) which takes an int as an arguement.  WithTaxPrice equals the return value of this method when the Price is entered as the arguement.
+I have taken the calculation out of the Invoice object and created a new method called CalculateTax(int price) which takes an int as an arguement.  WithTaxPrice equals the return value of this method when the Price is entered as the arguement.
 
 In the CalculateTax method it stores the currentTaxAmount variable.  Also it has a variable called percentage which multiplies the passed in value with the currentTaxAmount, then the percentage is returned.
 
