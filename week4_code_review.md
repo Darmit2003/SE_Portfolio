@@ -1,6 +1,6 @@
 # Code Review
 
-This section documents my practical work from week 4.  This week I was given some code review challenges which involved looking at different pieces of code and assessing whether or not they violate certain convention or exhibit certain coding smells.
+This section documents my practical work from week 4.  This week I was given some code review challenges which involved looking at different pieces of code and assessing whether or not they violate certain conventions or exhibit certain coding smells.
 
 Most of these concepts are either completely new ideas to me or some are even the opposite of what I was taught before which made these code reviews difficult to fully understand and this was my first time taking on this kind of task.
 
