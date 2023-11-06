@@ -19,3 +19,18 @@ the various dimensions of software engineering into your practice. It should inc
 
 Be sure to include links to the original items in the team's GitHub repository.
 
+# Project Work 1
+
+The work for this week invloves using everyting that has been learned or discussed in the module so far to complete an issue from start to finish.
+
+**<ins>Issue Description<ins>**
+
+The issue being carried out this week is as follows: As an UNDAC Team Support and Logistics Manager, I want to request the removal of access for uses when they leave so that effective security is maintained.
+
+The end user goal of this issue is that access to the system will be prevented when it is no longer needed and the end business goal is to ensure the data security of the mission.
+
+The acceptance criteria of the issue are that requests for removal of access are automatically accepted and that records are not deleted when they lose acess, they are instead set to a 'disabled' status.
+
+**<ins>Issue Code<ins>**
+
+
