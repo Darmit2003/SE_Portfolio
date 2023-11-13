@@ -66,11 +66,11 @@ Fact]
     public void DeleteItemAsync_SetsCorrectStatus()
     {
         // Arrange
-        var item = new TeamMemberModel(); // Assuming this is your model class
-        var dbModel = new TeamMemberDB(); // Replace with your actual ViewModel class
+        var item = new TeamMemberModel(); 
+        var dbModel = new TeamMemberDB();
 
         // Act
-        dbModel.DeleteItemAsync(item); // Adjust this call based on your actual method signature
+        dbModel.DeleteItemAsync(item);
 
         // Assert
         Assert.True(item.status);
