@@ -1,38 +1,12 @@
-# Project work 3
-
-Week 10 is the third and last week in a series in which the goal is to improve your 
-personal software engineering practice. Your portfolio entry has the same general content
-as last week's, including:
-
-* A descriptive summary of the issue that you worked on.
-* Snippets from your code with commentary showing how you have used good software design 
-  practice.
-* A descriptive summary of the test code that you have written.
-* A reflective summary of any changes that were requested during the code review along 
-  with your fixes.
-* A descriptive summary of any issues you found with the code that you were asked to review.
-* A general reflective section that identifies, for example,
-  * New things you have realised this week
-  * Common problems that can arise in a team development situation
-  * How your practice compares to other people's
-  * etc.
-
-Be sure to include links to the original items in the team's GitHub repository.
-
-In the reflective sections this week, you should highlight ways that you persona practice
-has improved as before. It would also be good to reflect on any improvements that have
-been made to the agreed team workflow and related procedures. Are things working
-better than they were? What further improvements could be made in the future?
-
 # Project Work 3
 
-This entry works exactly like the last two, I will work thorugh a new issue, detail good principles in the code and test it and perform a code review.
+This entry works exactly like the last two, I will work through a new issue, detail good principles in the code and test it and perform a code review.
 
 **<ins>Issue Description<ins>**
 
 The issue being tackled this week is: As an UNDAC Team Leader I want to view team alerts so that I can take appropriate action.
 
-The end user goal of the issue is to recieve timely information about team issues and the end business goal is to ensure that team members recieve appropriate attention from the mission management.
+The end user goal of the issue is to receive timely information about team issues and the end business goal is to ensure that team members receive appropriate attention from the mission management.
 
 The acceptance criteria for this issue is as follows: 
 * Team alerts are represented by a visual flag on the app display.
@@ -60,7 +34,7 @@ private void SearchItemsInAlertList(string searchText)
     }
 ```
 
-The method above adheres to the Single Responsibility Principle as its only purpose is to search and update the item source for alertList.  By converying all text to lowercase it performs a case-insensitive search which is good coding practice as it greatly limits the possible user errors when searching.  The method first checks if the text is null or whitespace and sets the source to all the data in this case, this kind of condition checking is good software design practice to exit the loop early and improve readability.
+The method above adheres to the Single Responsibility Principle as its only purpose is to search and update the item source for alertList.  By converting all text to lowercase it performs a case-insensitive search which is good coding practice as it greatly limits the possible user errors when searching.  The method first checks if the text is null or whitespace and sets the source to all the data in this case, this kind of condition checking is good software design practice to exit the loop early and improve readability.
 
 ```
 private void OnAlertType_Changed(object sender, EventArgs e)
@@ -101,7 +75,7 @@ This next method again follows SRP by only performing one action.  FindAll is us
     }
 ```
 
-This test setus up a mock and then provides a list AlertModel objects.  After this the FilterAlertsByType method is called with a specified type.  Finally the test confirms that only the items of the specified type are displayed and that the right number of them are there in the assertion lines.
+This test sets up a mock and then provides a list AlertModel objects.  After this the FilterAlertsByType method is called with a specified type.  Finally the test confirms that only the items of the specified type are displayed and that the right number of them are there in the assertion lines.
 
 **<ins>Code Review Fixes<ins>**
 
@@ -123,7 +97,7 @@ Working collaboratively with my team this week was a huge benefit as it meant th
 
 As the weeks have went on I have slowly started to feel much more proficient with GitHub, C#, MAUI apps and team workflows and in some of these areas I am starting to feel a lot more confident than I felt at in the initial weeks which in turn I feel is helping me provide better quality work.
 
-My understanding of sofware design principles is also improving with each code review I carry out and also from the suggested changes my code gets from other team members.
+My understanding of software design principles is also improving with each code review I carry out and also from the suggested changes my code gets from other team members.
 
 I do think that these issues could use more time to be worked on as each week the work does feel kind of rushed and a very simple implementation and tests are usually produced.  Some more time to polish off these pieces of code and add better features and fit more design principles would be beneficial as sometimes there are ideas that don't come to fruition due to the weekly time constraint.
 

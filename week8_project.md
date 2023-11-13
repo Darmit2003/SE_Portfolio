@@ -1,14 +1,14 @@
 # Project Work 1
 
-The work for this week invloves using everyting that has been learned or discussed in the module so far to complete an issue from start to finish.
+The work for this week involves using everything that has been learned or discussed in the module so far to complete an issue from start to finish.
 
 **<ins>Issue Description<ins>**
 
 The issue for this week is: As an UNDAC Team Support and Logistics Manager, I want to request the removal of access for uses when they leave so that effective security is maintained.
 
-The end user goal for this issue it to prevent acess to mission system once it is no longer neeeded and the end business goal is to ensure the data security of the mission.
+The end user goal for this issue it to prevent access to mission system once it is no longer needed and the end business goal is to ensure the data security of the mission.
 
-The acceptance criteraia for this issue to be considered completed are that requests for removal of access are automatically accepted and that records are not deleted and are instead just disabled.
+The acceptance criteria for this issue to be considered completed are that requests for removal of access are automatically accepted and that records are not deleted and are instead just disabled.
 
 **<ins>Issue Code<ins>**
 
@@ -57,7 +57,7 @@ async void OnDeleteClicked(object sender, EventArgs e)
     }
 ```
 
-The following already mentioned principles are being followed here: DRY, KISS, YAGNI, asynchronous programming.  Antother notable principle in this snippet is event-driven programming which is good practice when a user interface is involved, as the method is executed as a response to a specific user action.
+The following already mentioned principles are being followed here: DRY, KISS, YAGNI, asynchronous programming.  Another notable principle in this snippet is event-driven programming which is good practice when a user interface is involved, as the method is executed as a response to a specific user action.
 
 **<ins>Test Code<ins>**
 
@@ -82,7 +82,7 @@ This test asserts that when the DeleteItemASync method is used, that the status 
 
 **<ins>Code Review Fixes<ins>**
 
-When my code was reviewed by another team member, one thing they requested that I change was the name of the status variable in the TeamMemberModel as it follows poor naming convetions as it isn't clear enough about what it is.  To fix this I changed the name to disabledStatus which better fits good coding principles as it is now much clearer reading it what it is for.
+When my code was reviewed by another team member, one thing they requested that I change was the name of the status variable in the TeamMemberModel as it follows poor naming conventions as it isn't clear enough about what it is.  To fix this I changed the name to disabledStatus which better fits good coding principles as it is now much clearer reading it what it is for.
 
 **<ins>Code Review Issues<ins>**
 
@@ -101,3 +101,4 @@ This week I feel like I've better learned how to code review, this of course wil
 I've learned why asynchronous programming is a very useful principle to follow to keep the program running smoothly while a method waits for operation, while I've been using it for a while, I didn't fully understand it until now.
 
 A common problem that can arise in a team development situation is that there can be big skill gaps between different members of the team which could lead to an issue during code reviews, if someone who is a very skilled coder writes some code for review, and someone much less experienced than them tries to review it, they may not be able to properly give feedback if they are not able to fully understand the code and how it works.
+
